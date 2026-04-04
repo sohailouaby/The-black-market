@@ -31,3 +31,18 @@ h1{
     text-align: center;
     font-family: cursive;
 }
+
+.GunImages{
+    height: 210px;
+    margin-left: 109px;
+    margin-bottom: 25px;
+    border: 10px solid black;
+}
+
+.i{
+    height: 210px;
+    margin-left: 215px;
+    margin-bottom: 25px;
+    border: 10px solid black;
+}
+

@@ -3,5 +3,10 @@
 {% block title %}Guns Page{% endblock %}
 
 {% block content %}
-    <p class="mainContent">Welcome to the guns page, look at whatever guns of ur dreams u want</p>
+<link rel="stylesheet" href="style.css">
+    <img src="{{url_for('static', filename='images/Revolver.png')}}" class="GunImages">
+    <img src="{{url_for('static', filename='images/AssultRifle.png')}}" class="GunImages">
+    <img src="{{url_for('static', filename='images/Shotgun.png')}}" class="GunImages">
+    <img src="{{url_for('static', filename='images/SMG.png')}}" class="i">
+    <img src="{{url_for('static', filename='images/Sniper.png')}}" class="i">
 {% endblock %}
